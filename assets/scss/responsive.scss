@@ -1,0 +1,74 @@
+// ========== Header ==========
+@media (max-width: 768px) {
+  #header.header-scrolled {
+    padding: 15px 0;
+  }
+}
+//  => navbar
+
+// => Mobile Nav
+
+// ========== Hero Section ==========
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    h2 {
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+// ========== Breadcrumbs ==========
+
+@media (max-width: 768px) {
+  .breadcrumbs {
+    .d-flex {
+      display: block !important;
+    }
+
+    ol {
+      display: block;
+
+      li {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+//  ========== About Section ==========
+
+@media (max-width: 1200px) {
+  .about .content {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .about {
+    text-align: center;
+  }
+}
+
+// ========== Team Section ==========
+
+// ========== Footer ==========
+
+@media (max-width: 575px) {
+  #footer .footer-top .footer-info {
+    margin: -20px 0 30px 0;
+  }
+}
